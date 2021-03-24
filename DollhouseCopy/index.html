@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <title>multiplayer test</title>
+
+    <link rel="stylesheet" href="https://laar.world/styles.css">
+    <link rel= "stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/test.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body class="regbody">
+    <div class="navbar">
+    <div id="content-notmobile">
+      <p class="alignright">
+        <a class= "anavbar" href="https://laar.world/about.html" target="_blank">Lara Lewison</a>&nbsp; </p> 
+          <p class="alignright">
+        <a class= "anavbar" href="mailto:lewisonlara@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>&nbsp;
+        <a class= "anavbar" href="https://www.instagram.com/llaaraall/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;
+        <a class= "anavbar" href="https://www.facebook.com/lara.lewison" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;
+        <a class= "anavbar" href="https://www.etsy.com/shop/laralpaints" target="_blank"><i class="fab fa-etsy"></i></a>&nbsp;
+        <a class= "anavbar" href="https://www.youtube.com/channel/UCviFUOrEcfTvgquIaxvtVKw" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
+      </p></div>
+
+      <div id="content-notmobile">
+        <p class="alignleft">&nbsp; &nbsp;
+          
+          <a class="anavbar" href="http://wiggly.laar.world/map_nov8.JPG" target="_blank">here's a map of the space in case you get lost</a>
+          
+        </div></div>
+
+        <div class="folders">
+
+    
+          <a class="suba" href="https://laar.world" target="_blank"><div class="homebtn">
+            <i class="fas fa-home"></i>
+          </div></a></div>
+
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div style="color:red; font-size: 15px; line-height: 25px;"> use wasd or arrow keys to navigate, "," and "." to rotate</div>
+        <div style = "color: grey; font-size: 15px">last update: 11/26 3pm--still working on motion </div>
+        <div style="color:cornflowerblue; font-size: 11px; line-height: 15px;"> the other people connected are red eggs. travel through the blue windows to other rooms<br> this is a community space! email me at <a href="mailto:lewisonlara@gmail.com" target="_blank">lewisonlara@gmail.com</a> if you would like to make a digital contribution :) <br></div> <div style="color:grey; font-size: 11px; margin-left: 100px; line-height: 25px;">
+        i am still working on various elements, so bear with me and try reloading if you have issues (but pls lmk) <br><br></div></div>
+        
+      </div>
+    </div>
+  </body>
+</html>
